@@ -3,7 +3,7 @@
 * A solution to get 5-face key points and make eye closed detect on jetson nano with tensorrt
 
 ## Check your System
-
+    ## Password：123
     ## Same as jetpack4.6
     tensort version == 8.0.1
     CUDA == 10.2
@@ -27,6 +27,10 @@ Train with [MRL Eye Dataset](http://mrl.cs.vsb.cz/eyedataset) with **Mobilenet_V
 | Crop face | NMS & Achor | Crop two  Eyes + Predict | Total |
 | -------- | -------- | -------- | -------- | 
 |0.054 sec | 0.01 sec  | 0.019 sec|  0.083 sec    |
+
+## RUN
+
+    python main.py
 
 ## Export A model
 
